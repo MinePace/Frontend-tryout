@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore DLL files
+*.dll
+
+# Ignore .props files
+*.props
+
+# Ignore cache files
+*.cache
+
+# Ignore .csproj files
+*.csproj
