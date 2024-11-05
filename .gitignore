@@ -33,3 +33,4 @@ yarn-error.log*
 
 # Ignore .csproj files
 *.csproj
+/MovieAPI/obj/Debug/net8.0
