@@ -1,11 +1,11 @@
 import React from 'react';
-import MyButton from '../Button';
 
-function HomePage({ user }) {
+function HomePage({ user, onLogout }) {
   return (
     <div>
-      <h1>Welcome to the Home Page, {user.firstname} {user.lastname}!</h1>
+      <h1>Welcome, {user.firstname} {user.lastname}!</h1>
       <a href="shows">Go to shows page</a>
+      <button onClick={onLogout}>Logout</button> {/* Logout button */}
     </div>
   );
 }

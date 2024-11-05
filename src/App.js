@@ -41,7 +41,7 @@ function App() {
 
             // Define routes for the application
             <Routes>
-              <Route path="/home" element={<HomePage user={user} />} />
+              <Route path="/home" element={<HomePage user={user} onLogout={handleLogout}/>} />
               <Route path="/login" element={<LoginPage user={user} />} />
               <Route path="/shows" element={<ShowsPage user={user} />} />
             </Routes>

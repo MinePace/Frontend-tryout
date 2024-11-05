@@ -5,7 +5,7 @@ using MovieAPI.Models;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<MovieContext>(options =>
-    options.UseSqlite("Data Source=movies.db")
+    options.UseSqlite("Data Source=Data.db")
     );
 
 builder.Services.AddCors(options =>
