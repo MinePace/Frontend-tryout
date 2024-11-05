@@ -35,3 +35,4 @@ yarn-error.log*
 *.csproj
 /MovieAPI/obj/Debug/net8.0
 /MovieAPI/obj/Debug
+/MovieAPI/obj
